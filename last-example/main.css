@@ -1,0 +1,8 @@
+.container {
+  border: 1px solid;
+  width: 65rem;
+}
+
+.container__photo {
+  width: 65rem;
+}
