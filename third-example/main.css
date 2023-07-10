@@ -1,25 +1,27 @@
 .main-container {
-  display: flex;
-  padding: 2rem;
-  gap: 2rem;
-  list-style-type: none;
+	display: flex;
+	padding: 2rem;
+	gap: 2rem;
+	list-style-type: none;
 }
 
 .main-container__item {
-  width: 15rem;
-  height: 15rem;
-  border: 0.25rem solid;
-  border-radius: 1rem;
-  background: white;
+	width: 15rem;
+	height: 15rem;
+	border: 0.25rem solid;
+	border-radius: 1rem;
+	background: white;
 }
 
 .main-container__item.main-container__item--absolute {
-  /* position: absolute; */ /* What do you think that will happen if you remove the comments? */
-  margin-top: 1rem;
-  margin-right: -6rem;
+	position: absolute;
+	display: flex;
+	/* What do you think that will happen if you remove the comments? */
+	margin-top: 1rem;
+	margin-right: -6rem;
 }
 
 .main-container__item.main-container__item--absolute {
-  z-index: 2; /* remove */
-  background: rgb(250, 127, 5);
+	z-index: 2; /* remove */
+	background: rgb(250, 127, 5);
 }

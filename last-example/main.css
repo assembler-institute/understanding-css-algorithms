@@ -1,8 +1,12 @@
 .container {
-  border: 1px solid;
-  width: 65rem;
+	/* display: flex; */
+	border: 1px solid;
+	width: 65rem;
+	/* line-height: 0; */
+	font-size: 0;
 }
 
 .container__photo {
-  width: 65rem;
+	width: 100%;
+	/* display: block; */
 }

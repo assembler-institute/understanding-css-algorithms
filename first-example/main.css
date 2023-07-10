@@ -1,24 +1,24 @@
 .main-container {
-  display: flex;
-  padding: 2rem;
-  gap: 2rem;
-  list-style-type: none;
+	display: flex;
+	padding: 2rem;
+	gap: 2rem;
+	list-style-type: none;
 }
 
 .main-container__item {
-  width: 15rem;
-  height: 15rem;
-  border: 0.25rem solid;
-  border-radius: 1rem;
-  background: white;
+	width: 15rem;
+	height: 15rem;
+	border: 0.25rem solid;
+	border-radius: 1rem;
+	background: white;
 }
 
 .main-container__item.main-container__raised {
-  margin-top: 1rem;
-  margin-right: -6rem;
+	margin-top: 1rem;
+	margin-right: -6rem;
 }
 
 .main-container__item.main-container__raised {
-  z-index: 2; /* remove */
-  background: rgb(250, 127, 5);
+	background: rgb(250, 127, 5);
+	z-index: 1000;
 }

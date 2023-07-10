@@ -1,15 +1,15 @@
 .first-container {
-  width: 300rem; /* uses flow and it doesn´t care about the consequences of overflow */
+	width: 300rem; /* uses flow and it doesn´t care about the consequences of overflow */
 
-  height: 6rem;
-  border: 0.15rem solid;
-  border-radius: 1rem;
-  background: rgb(255, 162, 2);
-  margin: 2rem;
+	height: 6rem;
+	border: 0.15rem solid;
+	border-radius: 1rem;
+	background: rgb(255, 162, 2);
+	margin: 2rem;
 }
 
 .second-container--flex {
-  display: flex; /* uses the hypothetical size of the first container in an ideal scenario,
+	display: flex; /* uses the hypothetical size of the first container in an ideal scenario,
   but shrinks otherwise */
 }
 
